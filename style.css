@@ -48,7 +48,7 @@ h2 {
     background: url(zen.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 400px;
+    background-position: 650px;
     font-family: 'Satisfy', cursive;
     font-style: italic;
     font-size: 18px;
@@ -56,7 +56,7 @@ h2 {
     color: white;
     position: relative;
     top: 100px;
-    left: 3%;
+    left: 2%;
 }
 h3 {
     font-family: 'Roboto', sans-serif;
