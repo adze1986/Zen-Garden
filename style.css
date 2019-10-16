@@ -48,15 +48,15 @@ h2 {
     background: url(zen.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: left;
+    background-position: 400px;
     font-family: 'Satisfy', cursive;
     font-style: italic;
     font-size: 18px;
     text-align: center;
     color: white;
-    position: absolute;
+    position: relative;
     top: 100px;
-    left: 45%;
+    left: 3%;
 }
 h3 {
     font-family: 'Roboto', sans-serif;
