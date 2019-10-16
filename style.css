@@ -144,3 +144,39 @@ footer a:hover{
     text-decoration: none;
 }
 
+[role = navigation] li{
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 48%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+  
+}
+
+#design-selection {
+    background-color: rgb(193, 228, 186);
+}
+.designer-name {
+    color: grey;
+}
+
+.archives {
+    visibility: hidden;
+}
+
+.select {
+    visibility: hidden;
+}
+
+.design-archives {
+    background-color: rgb(193, 228, 186);
+
+}
+
+.zen-resources {
+    visibility: hidden;
+
+}
