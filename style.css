@@ -1,13 +1,146 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+*{
+    margin: 0;
+    padding: 0px;
 
+}
+
+a {
+
+text-decoration: none;
+color: black;
+}
+
+body{
+
+}
+
+header {
+    background-image: url(huntington.png);
+    height: 250px;
+    width: 100%;
+    position: relative;
+    text-align: center
+
+}
+
+h1{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    top: 100px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-shadow: 2px 4px black;
+    
+
+
+
+}
+ 
 h2 {
-    background: url(../img/zen.svg);
+    background: url(zen.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: left;
+    font-family: 'Satisfy', cursive;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 45%;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    color: black;
+    margin-left: 107px;
+    margin-right: 100px;
+
+    
+
 }
 
-#css-zen-garden {
-    text-align: center
+p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 7px;
+
 }
+
+.summary {
+   /* margin-left: 100px;
+   margin-right: 100px; */
+}
+.preamble {
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+#zen-supporting {
+    /* margin-left: 100px;
+    margin-right: 100px; */
+
+
+}
+.participation {
+    background-image: url(bamboo.png);
+    background-color: rgb(163, 187, 162);
+    color: white;
+
+}
+.benefits {
+    background-image: url(bamboo.png);
+    background-color: rgb(163, 187, 162);
+    color: white;
+}
+
+[role= contentinfo] {
+    font-size: 120%;
+    background-color:rgb(154, 189, 147);
+    color: grey;
+    margin: 0;
+    text-align: center;
+    
+
+}
+
+[role= contentinfo] a {
+    font-family: 'Satisfy', cursive;
+    font-style: italic;
+    color: white;
+    font-size: 200%;
+    text-decoration: none;
+}
+[role= contentinfo] a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color:rgb(37, 105, 71);
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    font-size: 270%;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: grey;
+    font-size: 270%;
+    text-decoration: none;
+}
+
